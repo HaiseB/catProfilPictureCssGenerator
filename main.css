@@ -2,6 +2,11 @@
     font-family: 'Press Start 2P', sans-serif;
 }
 
+#visualizer{
+    height: 400;
+    width: 400;
+}
+
 .shape-1 {
     width: 100px;
     height: 100px;
@@ -75,4 +80,8 @@
 
 .color-1 {
     background: green;
+}
+
+.color-2 {
+    background: blue;
 }

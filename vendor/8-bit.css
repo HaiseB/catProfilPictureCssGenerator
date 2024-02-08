@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-div {
-    margin: 0 auto;
-    display: inline-block;
-    text-align: center;
-    padding: 0.4em 1.3em;
-}
-
 hr {
     height: 10px;
     visibility: hidden;
