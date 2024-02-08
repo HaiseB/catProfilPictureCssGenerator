@@ -15,23 +15,25 @@
     <link rel="icon" type="image/x-icon" href="./icon.png">
     <script src="./selector.js"></script>
     <script src="./cookie.js"></script>
+    <script src="./css-visualizer.js"></script>
+    <script src="./meme-player.js"></script>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./vendor/8-bit.css">
-    <link rel="stylesheet" href="./css-visualizer.js">
+    <link rel="stylesheet" href="./vendor/shake-animation.css">
 </head>
 
 <body>
     <div class="container-xl">
         <h1 class="mt-2">Visualizer</h1>
-        <div id="visualizer" class="lvl1">
-            <div id="shape-visualizer" class="shape-1 color-1"></div>
-        </div>
+        <span id="visualizer" class="lvl1">
+            <span id="shape-visualizer" class="shape-1 color-1"></span>
+        </span>
         <h2>Options</h2>
         <div class="lvl1">
             <div id="shape-selector" class="d-flex">
-                <button id="shape-left-arrow"><i class="fa-solid fa-arrow-left"></i></button>
+                <button id="shape-left-button"><i class="fa-solid fa-arrow-left"></i></button>
                 <h4 class="mx-2">Shape</h4>
-                <button id="shape-right-arrow"><i class="fa-solid fa-arrow-right"></i></button>
+                <button id="shape-right-button"><i class="fa-solid fa-arrow-right"></i></button>
             </div>
             <div id="mouth-selector">
 
@@ -54,8 +56,11 @@
         </div>
         <h2>Css visualizer</h2>
         <div id="css-visualizer" class="lvl1">
+            <code>@TODO bro just add the css here, please I'm begging u...</code>
         </div>
-        <button id="save-in-cookie">Savie in da cookie</button>
+        <div>
+            <button id="playButton">Savie in da cookie</button>
+        </div>
     </div>
 </body>
 
